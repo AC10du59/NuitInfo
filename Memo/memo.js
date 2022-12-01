@@ -1,7 +1,8 @@
 var nb_clics = 0;
 var mini1 = ""; var mini2="";
 var case1 = ""; var case2="";
-var img_ok = 0; var nb_erreurs=0;
+var img_ok = 0;
+var nb_erreurs=0;
 var le_score=0;
 var depart = false;
 var temps_debut = new Date().getTime();
