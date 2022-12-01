@@ -9,7 +9,13 @@ body {
 	width:100%;
 	font-family: Calibri;
 	font-size:13px;
-	color:#666666;
+	color:white;
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+	margin-top: 100px;
 }
 
 #grille {
@@ -21,7 +27,7 @@ body {
 	-moz-border-radius: 10px;
     -webkit-border-radius: 10px;	
 	background-color:#CCCCCC;
-	background:rgba(100,100,100,.1);
+	background:rgba(0,50,140,.7);
 	padding-top:10px;
 	padding-bottom:10px;
 	padding-left:10px;
@@ -58,8 +64,8 @@ body {
 	-moz-border-radius: 10px;
     -webkit-border-radius: 10px;	
 	background-color:#EDEEEE;
-	background:rgba(100,100,100,.1);
-	color:#666666;
+	background:rgba(0,50,140,.7);
+	color:white;
 	font-weight:bold;
 	font-size:20px;
 	padding-top:16px;
