@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="fr">
+    <meta charset="UTF-8">
+    <title>Mini-Jeu : Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="grid">
+        <div id="quiz">
+            <h1>Quiz</h1>
+            <hr style="margin-bottom: 20px">
+
+            <p id="question"></p>
+
+            <div class="buttons">
+                <button id="choix1" onclick=verif1()></button>
+                <button id="choix2" onclick=verif2()></button>
+                <button id="choix3" onclick=verif3()></button>
+            </div>
+
+            <hr style="margin-top: 50px">
+            <footer>
+                <p id="progress">Question of 5</p>
+                <button id="suivant" onclick=suivante()>Question suivante</button>
+            </footer>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
