@@ -1,0 +1,50 @@
+body{
+    background-color: bisque;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    font-family: 'Carter One', cursive;
+    font-size: 100px;
+    color: rgb(143, 85, 95);
+}
+
+#game{
+    display: grid;
+    grid-template-columns: 33% 66%;
+    grid-template-rows: 80%;
+    text-align: center;
+}
+
+#pion{
+    width: 85%;
+    top: 250px;
+    position: relative;
+    transform: rotate(25deg);
+}
+
+#jouer{
+    position: relative;
+}
+
+#circle{
+    width: 600px;
+    height: 600px;
+}
+
+#preservatif{
+    border: solid black;
+    margin-right: 5px;
+    margin-left: 10px;
+    /*background-color: green;*/
+}
+
+#mini-jeux{
+    border: solid black;
+    margin-left: 5px;
+    /*background-color: red;*/
+}
