@@ -215,7 +215,8 @@ function suivante(){
         document.querySelector('#choix2').style.backgroundColor='#7FFF00';
         document.querySelector('#choix1').style.backgroundColor='#8e44ad';
         document.querySelector('#choix1').textContent="Fin de la session de quiz"
-        document.querySelector('#choix2').textContent="Vous avez " + points+"points";
+        document.querySelector('#choix2').textContent="Vous avez " + points+" points";
         document.querySelector('#choix3').textContent="";
+        window.close();
     }
 }

@@ -6,24 +6,67 @@ body{
 
 h1{
     text-align: center;
-    height: 100px;
-    width: 100%;
     font-family: 'Carter One', cursive;
-    font-size: 100px;
+    font-size: 80px;
     color: rgb(143, 85, 95);
 }
 
 #game{
-    display: grid;
-    grid-template-columns: 33% 66%;
-    grid-template-rows: 80%;
+    display: block;
     text-align: center;
+    margin-top: 75px;
 }
 
+span{
+    position: absolute;
+    display: inline-flex;
+    width: 180px;
+    height: 55px;
+    margin: 0 15px;
+    margin-top: -145px;
+    perspective: 1000px;
+  }
+  span a{
+    font-size: 19px;
+    letter-spacing: 1px;
+    transform-style: preserve-3d;
+    transform: translateZ(-25px);
+    transition: transform .25s;
+    font-family: 'Montserrat', sans-serif;
+    
+  }
+  span a:before,
+  span a:after{
+    position: absolute;
+    content: "REGLES";
+    height: 55px;
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid rgb(143, 85, 95);
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+  span a:before{
+    color: #fff;
+    background: rgb(143, 85, 95);
+    transform: rotateY(0deg) translateZ(25px);
+  }
+  span a:after{
+    color: #000;
+    transform: rotateX(90deg) translateZ(25px);
+  }
+  span a:hover{
+    transform: translateZ(-25px) rotateX(-90deg);
+  }
+  
+
 #pion{
-    width: 85%;
-    top: 250px;
-    position: relative;
+    width: 600px;
+    height: 200px;
+    top: 450px;
+    position: absolute;
     transform: rotate(25deg);
 }
 
@@ -33,18 +76,11 @@ h1{
 
 #circle{
     width: 600px;
+	height: 600px;
+}
+
+#preserv {
+    width: 600px;
     height: 600px;
-}
-
-#preservatif{
-    border: solid black;
-    margin-right: 5px;
-    margin-left: 10px;
-    /*background-color: green;*/
-}
-
-#mini-jeux{
-    border: solid black;
-    margin-left: 5px;
-    /*background-color: red;*/
+    transform: rotate(-10deg);
 }

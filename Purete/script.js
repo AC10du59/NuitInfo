@@ -120,7 +120,7 @@ oui.onclick= function(){
     question.innerHTML = QR['question'][alea];
     QR['deja_utiliser'][alea] = 1;
     nb_question++;
-    console.log(points);
+    if(nb_question == 9) window.close();
 }
 
 non.onclick =function(){
@@ -134,5 +134,5 @@ non.onclick =function(){
     question.innerHTML = QR['question'][alea];
     QR['deja_utiliser'][alea] = 1;
     nb_question++;
-    console.log(points);
+    if(nb_question == 9) window.close();
 }

@@ -65,10 +65,12 @@ function verifier(limg, source) {
                         var dif_temps = Math.floor((new Date().getTime() - temps_debut)/1000);
                         document.getElementById("scrore").innerHTML ="<strong>" + le_score + "</strong>/10";
                         document.getElementById("temps").innerHTML = "Vous avez mis <strong>" + dif_temps + "</strong> secondes.";
+                        window.close();
                     }
                     if(dif_temps > 60) {
                         document.getElementById("temps").innerHTML = "Le temps imparti est dépassé, vous avez perdu !";
                         depart=false;
+                        window.close();
                     }
                 }
             }

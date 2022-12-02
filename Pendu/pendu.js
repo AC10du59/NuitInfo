@@ -93,6 +93,7 @@ function clavier(evenement) {
             if(nb_passe==10) {
                 document.getElementById('leScore').innerHTML = 'Votre score :<strong>' + (le_score-nb_erreurs/4) + ' / 10</strong> - Mots restants : <strong>' + (10 - nb_passe) + '</strong> <strong>Victoire !</strong>';
                 fin = true;
+                window.close();
             } else {
                 window.setTimeout(function attendre(){ suivant(); }, 1000);
             }
@@ -102,7 +103,10 @@ function clavier(evenement) {
         document.getElementById('lePendu').src = 'img_pendu/pendu' + nb_erreurs + '.png';
         if(nb_erreurs==4) {
             nb_passe++;
-            if(nb_passe==10) fin = true
+            if(nb_passe==10){
+                fin = true;
+                window.close();
+            }
             window.setTimeout(function attendre(){ suivant(); }, 1000);
         }
     }
