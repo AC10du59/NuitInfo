@@ -4,6 +4,7 @@ var boutton = document.getElementById("jouer");
 var preservatif = document.getElementById("preserv");
 var jeu = document.getElementById("game");
 var regle = document.getElementById("regle");
+var plateau = document.getElementById("circle");
 
 regle.onclick = function(){
     window.open("regle.html");
@@ -36,6 +37,7 @@ function avancer(){
         pion.style.transform = "rotate(335deg)";
         window.open("../Quiz/quiz.html");
         preservatif.src="img/preserv6.svg";
+        plateau.src="img/PlateauFin.svg";
     }
     jeux++;
 }
