@@ -1,6 +1,6 @@
 # KATCHOW TEAM - MST Croisière
 
-## Membres du groupes :
+## Membres du groupe :
 - CARRAY Aurélien
 - CORLAY Bastian
 - KOENIG Estbann
