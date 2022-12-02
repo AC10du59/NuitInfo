@@ -14,6 +14,6 @@
 - Mini-jeu : Jeu de pureté
 - Mini-jeu : Quiz
 
-## Annexe
+## Annexes
 * Voir la vidéo pour la présentation du site
 * Lien vers le site : engueranr.com
