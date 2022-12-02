@@ -2,7 +2,7 @@
 
 ## Membres du groupes :
 - CARRAY Aurélien
-- CORLET Bastian
+- CORLAY Bastian
 - KOENIG Estbann
 - LEMAIRE Cyril
 - RAOUT Enguéran
